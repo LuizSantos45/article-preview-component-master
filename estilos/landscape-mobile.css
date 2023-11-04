@@ -1,0 +1,428 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 745px) and (max-height: 360px) {
+    div#box {
+        height: 95%;
+    }
+
+    div#boxhover {
+        width: 35%;
+        height: 46px;
+        left: 15px;
+        top: -35px;
+    }
+
+    div#boxhover > div.display > span#chapeu {
+        top: 28px;
+        left: 96px;
+    }
+}
+
+@media screen and (min-width: 915px) and (min-height: 412px) {
+    div#box > div#boxhover {
+        margin-top: -100px;
+    }
+
+    div#boxhover > div.display > span#chapeu {
+        margin-left: 18px;
+        margin-top: -1px;
+    }
+}
+
+@media screen and (min-width: 914px) and (min-height: 412px) {
+    div#box > div#boxhover {
+        margin-top: -100px;
+    }
+
+    div#boxhover > div.display > span#chapeu {
+        margin-left: 18px;
+        margin-top: -1px;
+    }
+}
+
+@media screen and (min-width: 812px) and (min-height: 375px) {
+    div#box > div.body > h1 {
+        margin-top: 40px;
+        font-size: 1.4em;
+        line-height: 30px;
+    }
+
+    div#box > div.body > h2 {
+        font-size: 0.98em;
+        line-height: 24px;
+    }
+
+    div.body > div.box-michell {
+        position: relative;
+        top: -32px;
+    }
+
+    div#box > div#boxhover {
+        width: 30%;
+        left: 25px;
+        top: -45px;
+    }
+
+    div#boxhover > div.display > span#chapeu {
+        transform: translate(-10px, 0px);
+    }
+}
+
+@media screen and (min-width: 745px) and (max-height: 353px) {
+    div#boxhover > div.display > span#chapeu {
+        transform: translate(4px, 0px);
+    }
+}
+
+@media screen and (min-width: 736px) and (min-height: 414px) {
+    div#box > div#boxhover {
+        left: 25px;
+        top: -65px;
+    }
+
+    div#boxhover > div.display > span#chapeu {
+        transform: translate(3px, 0px);
+    }
+}
+
+
+@media screen and (min-width: 740px) and (max-height: 360px) {
+    div.body > h1 {
+        margin-top: 47px;
+        font-size: 1.4em;
+        line-height: 28px;
+    }
+
+    div.body > h2 {
+        font-size: 0.95em;
+        line-height: 21px;
+    }
+
+    div.box-michell {
+        position: relative;
+        top: -26px;
+    }
+
+    div.box-michell > div {
+        width: 50%;
+        position: relative;
+        top: 2px;
+    }
+
+    div#boxhover {
+        width: 33%;
+        height: 46px;
+        left: 18px;
+        top: -47px;
+    }
+
+    div#boxhover > div.display > span#chapeu {
+        top: 32px;
+        left: 106px;
+    }
+
+    div#boxhover > div.display > h2 {
+        font-weight: 280;
+    }
+
+}
+
+@media screen and (min-width: 667px) and (min-height: 375px) {
+    div.body > h1 {
+        margin-top: 36px;
+        font-size: 1.3em;
+        line-height: 25px;
+    }
+
+    div.body > h2 {
+        font-size: 0.91em;
+        line-height: 22px;
+    }
+
+    div.box-michell {
+        position: relative;
+        top: -31px;
+    }
+
+    div.box-michell > div {
+        width: 50%;
+        position: relative;
+        top: 2px;
+    }
+
+    div#boxhover {
+        width: 35%;
+        height: 46px;
+        left: 15px;
+        top: -40px;
+    }
+
+    div#boxhover > div.display > span#chapeu {
+        top: 28px;
+        left: 105px;
+    }
+
+    div#boxhover > div.display {
+        position: relative;
+        top: 13px;
+    }
+
+    div#boxhover > div.display > h2 {
+        font-weight: 260;
+        font-size: 1.2em;
+    }
+
+    div#boxhover > div.display > img {
+        width: 19px;
+        height: 19px;
+        left: 10px;
+    }
+}
+
+@media screen and (min-width: 658px) and (max-height: 320px) {
+    div.body > h1 {
+        margin-top: 80px;
+        font-size: 1.1em;
+        line-height: 23px;
+    }
+
+    div.body > h2 {
+        font-size: 0.91em;
+        line-height: 19px;
+    }
+
+    div.box-michell {
+        position: relative;
+        top: -24px;
+    }
+
+    div.box-michell > div {
+        width: 50%;
+        position: relative;
+        top: 2px;
+    }
+
+    div#boxhover {
+        width: 35%;
+        height: 46px;
+        left: 15px;
+        top: -30px;
+    }
+
+    div#boxhover > div.display > span#chapeu {
+        top: 28px;
+        left: 102px;
+    }
+
+    div#boxhover > div.display {
+        position: relative;
+        top: 13px;
+    }
+
+    div#boxhover > div.display > h2 {
+        font-weight: 300;
+        font-size: 1.1em;
+    }
+
+    div#boxhover > div.display > img {
+        width: 18px;
+        height: 18px;
+        left: 10px;
+    }
+}
+
+@media screen and (max-width: 653px) and (max-height: 280px) {
+    div.body > h1 {
+        margin-top: 100px;
+        font-size: 0.95em;
+        line-height: 20px;
+    }
+
+    div.body > h2 {
+        font-size: 0.8em;
+        line-height: 19px;
+    }
+
+    div.box-michell {
+        position: relative;
+        top: -20px;
+    }
+
+    div.box-michell > div {
+        width: 50%;
+        position: relative;
+        top: 2px;
+    }
+
+    div#boxhover {
+        width: 35%;
+        height: 46px;
+        left: 15px;
+        top: -35px;
+    }
+
+    div#boxhover > div.display > span#chapeu {
+        top: 28px;
+        left: 99px;
+    }
+
+    div#boxhover > div.display {
+        position: relative;
+        top: 13px;
+    }
+
+    div#boxhover > div.display > h2 {
+        font-weight: 300;
+        font-size: 1.1em;
+    }
+
+    div#boxhover > div.display > img {
+        width: 18px;
+        height: 18px;
+        left: 10px;
+    }
+}
+
+@media screen and (max-width: 640px) and (min-height: 360px) {
+    div.body > h1 {
+        font-size: 1.2em;
+        line-height: 25px;
+    }
+
+    div.body > h2 {
+        font-size: 0.9em;
+        line-height: 21px;
+    }
+
+    div.body > div.box-michell {
+        position: relative;
+        top: -10px;
+    }
+
+    div.box-michell > div {
+        width: 50%;
+        position: relative;
+        top: 3px;
+    }
+
+    div#boxhover {
+        width: 200px;
+        height: 48px;
+        border-radius: 8px;
+        top: -46px;
+        left: 20px;
+    }
+
+    div#boxhover > div.display > span#chapeu {
+        top: 28px;
+        left: 90px;
+    }
+
+    div#boxhover > div.display {
+        position: relative;
+        top: 15px;
+    }
+
+    div#boxhover > div.display > h2 {
+        font-size: 1.1em;
+    }
+
+    div#boxhover > div.display > img {
+        width: 18px;
+        height: 18px;
+        position: relative;
+        left: 5px;
+    }
+}
+
+@media screen and (max-width: 568px) and (min-height: 320px) {
+    div.body > h1 {
+        margin-top: 60px;
+        font-size: 1em;
+        line-height: 23px;
+    }
+
+    div.body > h2 {
+        font-size: 0.9em;
+        line-height: 21px;
+    }
+
+    div.box-michell {
+        position: relative;
+        top: -35px;
+    }
+
+    div.box-michell > div {
+        width: 60%;
+        position: relative;
+        top: 3px;
+    }
+
+    div#boxhover {
+        width: 200px;
+        height: 46px;
+        left: 10px;
+        top: -35px;
+    }
+
+    div#boxhover > div.display > span#chapeu {
+        top: 26px;
+        left: 105px;
+    }
+
+    div#boxhover > div.display > h2 {
+        font-size: 1.1em;
+    }
+
+    div#boxhover > div.display {
+        position: relative;
+        top: 15px;
+    }
+
+    div#boxhover > div.display > img {
+        width: 18px;
+        height: 18px;
+        position: relative;
+        left: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) and (max-height: 320px) {
+    div.body > h1 {
+        margin-top: 60px;
+        font-size: 1em;
+        line-height: 23px;
+    }
+
+    div.body > h2 {
+        font-size: 0.82em;
+    }
+
+    div.box-michell {
+        position: relative;
+        top: -35px;
+    }
+
+    div.box-michell > div {
+        width: 60%;
+        position: relative;
+        top: 9px;
+    }
+
+    div.box-michell > div > h2 {
+        left: 7px;
+        position: relative;
+        font-size: 0.8em;
+    }
+
+    div.box-michell > div > h3 {
+        left: 7px;
+        position: relative;
+        font-size: 0.7em;
+    }
+
+    div.box-michell > div.share > button {
+        top: 3px;
+    }
+    
+}

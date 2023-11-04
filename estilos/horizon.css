@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+div#box {
+    max-width: 900px;
+    height: 350px;
+}
+
+div.photo {
+    width: 40%;
+    background-size: cover;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+div.body {
+    margin: -350px auto auto auto;
+    height: 100%;
+    width: 60%;
+    float: right;
+    border-radius: 0px 10px 10px 0px;
+}
+
+div.body > h1 {
+    font-size: 1.6em;
+    line-height: 30px;
+    width: 80%;
+    margin: 40px auto auto auto;
+}
+
+div.body > h2 {
+    font-size: 0.9em;
+    width: 80%;
+    margin: 20px auto auto auto;
+}
+
+div.box-michell {
+    width: 80%;
+    margin: 50px auto auto auto;
+}
+
+div.box-michell > img {
+    position: relative;
+    top: 8px;
+}
+
+div.box-michell > div {
+    text-align: start;
+    width: 75%;
+    position: relative;
+    left: 5px;
+}
+
+div#boxhover {
+    float: inline-end;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    top: -10px;
+    left: 30px;
+    position: relative;
+}
+
+div.display > span#chapeu {
+    display: block;
+    font-size: 2.6em;
+    color: #47566A;
+    position: absolute;
+    left: 80px;
+    top: 35px;
+}
+
+div.box-michell > div.share > button:hover {
+    background-color: #6E8096;
+}
+
+div.box-michell > div.share > button > img:hover {
+    filter: brightness(520%);
+}
+
+div#boxhover > div.display {
+    margin-top: -12px;
+}
+
+div#boxhover > div.display > h2 {
+    font-size: 1.3em;
+    font-weight: 360;
+    top: -6px;
+    position: relative;
+}
+
+div#boxhover > div.display > img {
+    position: relative;
+    top: -4px;
+    left: 20px;
+}
+
+div#boxhover > div.display > div.share > button {
+    display: none;
+}
+
+div.attribution {
+    margin-top: 51px;
+}
+

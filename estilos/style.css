@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #EDF2F8;
+    margin: 0px;
+}
+
+div#container {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div#box {
+    border-radius: 10px;
+    width: 90%;
+    background-color: #FFFFFF;
+    box-shadow: 1px 3px 10px #0000000b;
+}
+
+div.photo {
+    background-image: url('../images/drawers.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 250px;
+}
+
+div.body {
+    width: 80%;
+    margin: auto;
+}
+
+div.body > h1 {
+    font-size: 1.2em;
+    text-align: start;
+    width: 104%;
+    font-weight: 400;
+    margin-top: 40px;
+    line-height: 26px;
+    color: #4A5262;
+}
+
+div.body > h2 {
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #868D95;
+    text-align: start;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+
+div.box-michell {
+    height: 70px;
+    width: 100%;
+    margin: auto;
+}
+
+div.box-michell > img {
+    width: 45px;
+    top: 5px;
+    position: relative;
+    border-radius: 50%;
+}
+
+div.box-michell > div {
+    margin: -50px auto auto auto;
+    text-align: center;
+}
+
+div.box-michell > div.share,
+div#boxhover > div.display > div.share  {
+    justify-content: end;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+}
+
+div.box-michell > div.share > button,
+div#boxhover > div.display > div.share > button {
+    background-color: #EEF4FB;
+    position: relative;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+}
+
+div.box-michell > div.share > img {
+    margin: auto;
+    display: block;
+}
+
+div#boxhover {
+    background-color: #47566A;
+    width: 100%;
+    height: 80px;
+    color: black;
+    display: none;
+    position: relative;
+    border-radius: 0px 0px 10px 10px;
+    margin: -80px auto auto auto;
+}
+ div.display > span#chapeu {
+    display: none;
+}
+
+div#boxhover > div.display {
+    display: flex;
+    align-items: center;
+    top: 20%;
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+div#boxhover > div.display > h2 {
+    font-weight: 300;
+    font-variant: small-caps;
+    font-size: 1.1em;
+    color: #788499;
+}
+
+div#boxhover > div.display > img {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+div#boxhover > div.display > div.share > button {
+    background-color: #6E8096;
+}
+
+div#boxhover > div.display > div.share > button > img {
+    filter: brightness(520%);
+}
+
+div.box-michell > div > h2 {
+    font-size: 0.9em;
+    color: #4F5562;
+    font-weight: 500;
+}
+
+div.box-michell > div > h3 {
+    font-weight: 300;
+    font-size: 0.88em;
+    margin-top: -8px;
+    color: #B6BECA;
+}
+
+div.attribution {
+    font-size: 0.9em;
+    margin-top: 21px;
+}
+
+div.attribution > a {
+    text-decoration: none;
+}
